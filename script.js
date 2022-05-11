@@ -95,7 +95,7 @@ function add() {
 
 function men() {
   let minu = Number(minutos.textContent);
-  if (minu <= 60) {
+  if (minu <= 4) {
     zerar();
     return;
   }
