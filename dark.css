@@ -1,0 +1,10 @@
+:root {
+  --bg-color: black;
+  --color: #fff;
+}
+
+.dark {
+  background: var(--bg-color);
+  color: var(--color);
+  transition: 0.7s;
+}
